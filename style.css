@@ -79,9 +79,15 @@ header .back {
   background-color: white;
   border-radius: 20px;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   padding-top: 25px;
+}
+
+.window-title {
+  font-family: "Gorditas", Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 .window-body {
