@@ -86,13 +86,14 @@ header {
 }
 .window-body{
     width: 96%;
-    height: 380px;
+    height: 400px;
     border-radius: 15px;
     background-color: rgb(32, 34, 49); 
     margin-top: 10px;   
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 10px;
 }
 .window-body-left{
     width: 60px;
@@ -198,12 +199,15 @@ img{
     img{
         width: 20%;
         position: absolute;
+        top: 5px;
     }
     img:nth-child(2){
-        left: 80px;
+        left: 90px;
+        top: 5px;
     }
     img:nth-child(3){
-        left: 160px;
+        left: 180px;
+        top: 5px;
     }
 }
 @media (max-width: 945px) {
@@ -237,10 +241,9 @@ img{
     padding-top: 5px;
     justify-content: center;
   }
-  .container {
-        height: 400px;
-    margin-top: 10px;
-  }
+.window-body{
+height: 380px;
+}
   .left-info-container{
     p{
       font-size: .5rem;
@@ -286,6 +289,13 @@ img{
 .buttons{
     img{
         top: 13px;
+        top: 15px;
+    }
+    img:nth-child(2){
+        top: 15px;
+    }
+    img:nth-child(3){
+        top: 15px;
     }
 }
   }
