@@ -96,7 +96,7 @@ header .back {
 }
 
 .window-body-left {
-  width: 16%;
+  width: 60px;
   height: 310px;
   display: flex;
   flex-direction: column;
@@ -114,7 +114,7 @@ header .back {
   border-radius: 15px;
 }
 .left-item-blue-container img, .left-item-container img {
-  width: 70%;
+  width: 80%;
 }
 
 .left-item-container {
@@ -253,7 +253,7 @@ header .back {
     height: 250px;
   }
   .left-item-blue-container, .left-item-container {
-    height: 50px;
+    height: 60px;
   }
   .body-first, .body-second, .body-third, .body-fourth {
     height: 40px;
