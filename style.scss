@@ -111,8 +111,16 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    position: relative;
     img{
         width: 80%;
+    }
+    p{
+      position: absolute;
+      font-size: .4rem;
+      bottom: 9px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
     }
 }
 .left-item-container{
